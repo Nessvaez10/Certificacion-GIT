@@ -1,0 +1,64 @@
+[
+    {
+        "id": 1,
+        "title": "Funciones",
+        "category": "Módulo 1",
+        "image": "/images/taco.jpg",
+        "content": "*****\n\n*****\n\nulises\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n",
+        "video": "/videos/test.mp4"
+        },
+    {
+        "id": 2,
+        "title": "Artículo 2",
+        "category": "Módulo 2",
+        "image": null,
+        "content": "*****\n\n*****\n\ntaco\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n",
+        "video": null
+    },
+    {
+        "id": 3,
+        "title": "Organigrama",
+        "category": "Módulo 4",
+        "image": "/images/taco.jpg",
+        "content": "*****\n\n*****\n\npelusin\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n",
+        "video": "/videos/test.mp4"
+    },
+    {
+        "id": 4,
+        "title": "Misión y Visión",
+        "category": "Módulo 2",
+        "image": null,
+        "content": "*****\n\n*****\n\ntaco\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n",
+        "video": null
+    },
+    {
+        "id": 5,
+        "title": "Artículo 5",
+        "category": "Módulo 2",
+        "image": null,
+        "content": "*****\n\n*****\n\ntaco\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n",
+        "video": null
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]

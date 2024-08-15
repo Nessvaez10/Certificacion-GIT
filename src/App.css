@@ -1,0 +1,159 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.App-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #611131;
+  padding: 20px;
+  color: #edf2f7;
+}
+
+.logo {
+  height: 100px;
+  margin-right: 20px;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.portada {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+
+.sidebar {
+  width: 200px;
+  background-color: #f7fafc;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Modificación para la responsividad */
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .main-content {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    position: relative; /* Cambia a relativa para evitar superposición */
+    top: 0;
+    left: 0;
+    height: auto; /* Ajusta la altura automáticamente */
+    order: 2;
+    border-right: none; /* Elimina el borde en dispositivos móviles */
+    box-shadow: none; /* Elimina la sombra en dispositivos móviles */
+  }
+
+  .content {
+    margin-left: 0; /* Elimina el margen para pantallas pequeñas */
+    order: 1;
+    padding: 10px;
+  }
+
+  .App-header {
+    flex-direction: column;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .App-header h1 {
+    font-size: 20px;
+  }
+
+  .content {
+    padding: 10px;
+  }
+
+  .search-bar-container {
+    flex-direction: column;
+  }
+
+  .search-bar,
+  .category-select {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+.search-bar {
+  padding: 10px;
+  margin: 20px 0;
+  width: 100%; /* Ajustado para que ocupe el 100% en pantallas pequeñas */
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.category-select {
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.articles {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.article-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.article {
+  background-color: #f7fafc;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.article summary {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.article p {
+  margin-top: 10px;
+}
+
+.App-footer {
+  background-color: #282c34;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  font-size: 14px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  height: 30px;
+  line-height: 10px;
+}
