@@ -79,21 +79,27 @@ function App() {
             </select>
           </div>
           <div className="articles">
-            {filteredArticles.map(article => (
-              <details key={article.id} className="article">
-                {article.image && <img src={article.image} alt={article.title} className="article-image" />}
-                <summary>{article.title}</summary>
-                <p style={{ whiteSpace: 'pre-wrap' }}>{article.content}</p>
-                {article.video && (
-                  <div className="video-container">
-                    <video width="560" height="315" controls>
-                      <source src={article.video} type="video/mp4" />
-                    </video>
-                  </div>
-                )}
-              </details>
-            ))}
-          </div>
+  {filteredArticles.map(article => (
+    <details key={article.id} className="article">
+      {article.image && <img src={article.image} alt={article.title} className="article-image" />}
+      <summary>{article.title}</summary>
+      <p style={{ whiteSpace: 'pre-wrap' }}>{article.content}</p>
+      {article.video && (
+        <div className="video-container">
+          <video width="560" height="315" controls>
+            <source src={article.video} type="video/mp4" />
+          </video>
+        </div>
+      )}
+      {article.fileLink && (
+        <a href={article.fileLink} target="_blank" rel="noopener noreferrer">
+          Descargar documento
+        </a>
+      )}
+    </details>
+  ))}
+</div>
+
         </div>
       </div>
       {/* <footer className="App-footer">

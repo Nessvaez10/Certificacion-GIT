@@ -1,19 +1,21 @@
 [
     {
         "id": 1,
-        "title": "Funciones",
+        "title": "Artículo 1: Introducción al Sistema de Gestión de Calidad (SGC)",
         "category": "Módulo 1",
-        "image": "/images/taco.jpg",
-        "content": "*****\n\n*****\n\nulises\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n",
-        "video": "/videos/test.mp4"
-        },
+        "image": "/images/ISO.jpg",
+        "content": "Objetivo:\n\nBrindar a los servidores públicos una visión general del Sistema de Gestión de Calidad (SGC), sus beneficios y cómo se alinea con los principios de transparencia, legalidad, y objetividad.\n\n\n¿Qué es un Sistema de Gestión de Calidad?\n\nUn SGC es un conjunto de políticas, procesos y procedimientos necesarios para planificar y ejecutar las actividades de una organización con el fin de mejorar continuamente la eficacia y eficiencia en el desempeño de la misma.\n\nLa norma ISO 9001:2015 define los requisitos para establecer, implementar, mantener y mejorar un SGC, garantizando que las organizaciones puedan satisfacer consistentemente las necesidades y expectativas de los ciudadanos. ",
+        "video": "/videos/Lec1.mp4",
+        "fileLink": "/docs/documento1.pdf"
+    },
     {
         "id": 2,
         "title": "Artículo 2",
         "category": "Módulo 2",
         "image": null,
         "content": "*****\n\n*****\n\ntaco\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n",
-        "video": null
+        "video": null,
+        "fileLink": null
     },
     {
         "id": 3,
@@ -21,7 +23,8 @@
         "category": "Módulo 4",
         "image": "/images/taco.jpg",
         "content": "*****\n\n*****\n\npelusin\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n",
-        "video": "/videos/test.mp4"
+        "video": "/videos/test.mp4",
+        "fileLink": "/docs/organigrama.pdf"
     },
     {
         "id": 4,
@@ -29,7 +32,8 @@
         "category": "Módulo 2",
         "image": null,
         "content": "*****\n\n*****\n\ntaco\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n",
-        "video": null
+        "video": null,
+        "fileLink": null
     },
     {
         "id": 5,
@@ -37,28 +41,7 @@
         "category": "Módulo 2",
         "image": null,
         "content": "*****\n\n*****\n\ntaco\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n",
-        "video": null
+        "video": null,
+        "fileLink": null
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ]
