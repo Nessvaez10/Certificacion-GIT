@@ -8,14 +8,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #611131;
-  padding: 20px;
+  background-color: #611131; /* Asegura que el color de fondo esté correctamente definido */
+  padding: 10px; /* Reducido para que el header sea menos alto */
   color: #edf2f7;
+  position: relative; /* Asegura que el header no sea transparente */
+  z-index: 1; /* Asegura que el header esté por encima de otros elementos si es necesario */
 }
 
 .logo {
-  height: 100px;
-  margin-right: 20px;
+  height: 10px; /* Reducido para que el logo sea más pequeño */
+  margin-right: 10px; /* Menor margen para acercar el logo al texto */
 }
 
 .main-content {
@@ -28,6 +30,30 @@
   width: 100%;
   height: auto;
   margin-bottom: 20px;
+}
+
+.custom-navbar {
+  background-color: #bb955b; /* Cambia este color a tu preferido */
+}
+
+.custom-navbar .navbar-nav {
+  flex-direction: row;
+  align-items: center;
+}
+
+.custom-navbar .nav-item {
+  margin-left: 20px; /* Ajusta el margen para distribuir los elementos */
+}
+
+.custom-navbar .nav-link {
+  color: #ffffff; /* Color del texto en la barra de navegación */
+  font-size: 16px; /* Ajusta el tamaño de la fuente según tus necesidades */
+  padding: 10px 15px; /* Ajusta el padding para que todos los elementos tengan el mismo tamaño */
+}
+
+.custom-navbar .navbar-brand {
+  margin-right: auto; /* Alinea el logo a la izquierda */
+  font-size: 16px; /* Asegúrate de que el tamaño de la fuente del logo coincida */
 }
 
 
