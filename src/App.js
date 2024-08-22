@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import articlesData from './articles/articles.json';
 
-const categories = ["Módulo 1", "Módulo 2", "Módulo 3", "Módulo 4", "Módulo 5"];
+const categories = ["Módulo 1", "Módulo 2", "Módulo 3", "Módulo 4", "Módulo 5", "Módulo 6"];
 
 function App() {
   const [searchTerm, setSearchTerm] = useState('');
