@@ -32,10 +32,10 @@ function App() {
     <div className="App">
       <header className="App-header bg-wine text-white text-center py-3">
         <img src="/images/logo2.png" alt="Logo" className="logo img-fluid" style={{ maxHeight: '100px' }} />
-        <h1>Capacitación MK1</h1>
+        <h1>SG-Calidad</h1>
       </header>
       
-      <img src="/images/despacho.gif" alt="Portada" className="portada img-fluid" />
+      <img src="/images/sg.gif" alt="Portada" className="portada img-fluid" />
 
       <nav className="navbar navbar-expand-lg navbar-dark custom-navbar">
   <div className="container">
@@ -45,7 +45,7 @@ function App() {
     </button>
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav ml-auto">
-        <li className="nav-item">
+        <li classNamje="nav-item">
           <a className="nav-link" href="#">Transparencia</a>
         </li>
         <li className="nav-item">
@@ -174,32 +174,43 @@ function App() {
                   ))}
                 </select>
               </div>
+
+
               <div className="articles">
-                {filteredArticles.map(article => (
-                  <details key={article.id} className="article mb-4 border p-3">
-                    {article.image && <img src={article.image} alt={article.title} className="article-image img-fluid mb-2" />}
-                    <summary className="fw-bold">{article.title}</summary>
-                    <p style={{ whiteSpace: 'pre-wrap' }}>{article.content}</p>
-                    {article.video && (
-                      <div className="video-container mt-2">
-                        <video width="100%" controls>
-                          <source src={article.video} type="video/mp4" />
-                        </video>
-                      </div>
-                    )}
-                    {article.fileLink && (
-                      <a href={article.fileLink} target="_blank" rel="noopener noreferrer" className="btn mt-2" style={{ backgroundColor: '#611131', borderColor: '#611131', color: '#fff' }}>
-                        Descargar documento
-                      </a>
-                    )}
-                    {article.externalLink && (
-                      <a href={article.externalLink} target="_blank" rel="noopener noreferrer" className="btn mt-2" style={{ backgroundColor: '#611131', borderColor: '#611131', color: '#fff' }}>
-                        Enlace externo
-                      </a>
-                    )}
-                  </details>
-                ))}
-              </div>
+  {filteredArticles.map(article => (
+    <details key={article.id} className="article mb-4 border p-3">
+     
+     {article.image && <img src={article.image} alt={article.title} className="article-image img-fluid mb-2" style={{ maxWidth: '100%', height: 'auto', display: 'block', margin: '0 auto' }} />}
+      <summary className="fw-bold">{article.title}</summary>
+      <p style={{ whiteSpace: 'pre-wrap' }}>{article.content}</p>
+     
+      {article.video && (
+        <div className="video-container mt-2">
+          <video width="100%" controls>
+            <source src={article.video} type="video/mp4" />
+          </video>
+        </div>
+      )}
+      {article.fileLink && (
+        <a href={article.fileLink} target="_blank" rel="noopener noreferrer" className="btn mt-2" style={{ backgroundColor: '#611131', borderColor: '#611131', color: '#fff' }}>
+          Documento de apoyo
+        </a>
+      )}
+      {article.externalLink && (
+        <a href={article.externalLink} target="_blank" rel="noopener noreferrer" className="btn mt-2" style={{ backgroundColor: '#bb955b', borderColor: '#bb955b', color: '#fff' }}>
+        Actividad
+        </a>
+      )}
+      {article.externalLink2 && (
+        <a href={article.externalLink2} target="_blank" rel="noopener noreferrer" className="btn mt-2" style={{ backgroundColor: '#9d2550', borderColor: '#9d2550', color: '#fff' }}>
+         Actividad 
+        </a>
+      )}
+    </details>
+  ))}
+</div>
+
+
             </div>
           </div>
         </div>

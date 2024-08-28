@@ -1,82 +1,61 @@
 [
     {
-        "id": 1,
-        "title": "Introducción al Sistema de Gestión de Calidad (SGC)",
-        "category": "Módulo 1",
-        "image": "/images/ISO.jpg",
-        "content": "Objetivo: Brindar a los servidores públicos una visión general del Sistema de Gestión de Calidad (SGC), sus beneficios y cómo se alinea con los principios de transparencia, legalidad, y objetividad.\n\n\n¿Qué es un Sistema de Gestión de Calidad? Un SGC es un conjunto de políticas, procesos y procedimientos necesarios para planificar y ejecutar las actividades de una organización con el fin de mejorar continuamente la eficacia y eficiencia en el desempeño de la misma.\n\nLa norma ISO 9001:2015 define los requisitos para establecer, implementar, mantener y mejorar un SGC, garantizando que las organizaciones puedan satisfacer consistentemente las necesidades y expectativas de los ciudadanos. ",
-        "video": "/videos/Lec1.mp4",
-        "fileLink": "/docs/documento1.pdf",
-        "externalLink": null
+      "id": 1,
+      "title": "Introducción al Sistema de Gestión de Calidad (SGC)",
+      "category": "Módulo 1",
+      "image": "/images/ISO.png",
+      "content": "Objetivo: Brindar a los servidores públicos una visión general del Sistema de Gestión de Calidad (SGC), sus beneficios y cómo se alinea con los principios de transparencia, legalidad, y objetividad.\n\n\n¿Qué es un Sistema de Gestión de Calidad? Un SGC es un conjunto de políticas, procesos y procedimientos necesarios para planificar y ejecutar las actividades de una organización con el fin de mejorar continuamente la eficacia y eficiencia en el desempeño de la misma.\n\nLa norma ISO 9001:2015 define los requisitos para establecer, implementar, mantener y mejorar un SGC, garantizando que las organizaciones puedan satisfacer consistentemente las necesidades y expectativas de los ciudadanos.",
+      "video": "/videos/Lec1.mp4",
+      "fileLink": "/docs/documento01.pdf",
+      "externalLink": null,
+      "externalLink2": null
     },
     {
-        "id": 2,
-        "title": "Beneficios del SGC para las dependencias de la SEGOB",
-        "category": "Módulo 1",
-        "image": null,
-        "content": "Mejora de la eficiencia:Al definir procesos claros y repetibles, se reduce el desperdicio de recursos y se optimiza el uso del tiempo.\n\n\nAumento de la transparencia: Documentar los procedimientos permite un mayor control y seguimiento de las actividades, promoviendo la rendición de cuentas.\n\n\nMayor satisfacción ciudadana: Un SGC bien implementado asegura que los servicios ofrecidos cumplan con las expectativas y necesidades de la población.",
-        "video": null,
-        "fileLink": null,
-        "externalLink": null
+      "id": 2,
+      "title": "Beneficios del SGC para las dependencias de la SEGOB",
+      "category": "Módulo 1",
+      "image": null,
+      "content": "Mejora de la eficiencia: Al definir procesos claros y repetibles, se reduce el desperdicio de recursos y se optimiza el uso del tiempo.\n\n\nAumento de la transparencia: Documentar los procedimientos permite un mayor control y seguimiento de las actividades, promoviendo la rendición de cuentas.\n\n\nMayor satisfacción ciudadana: Un SGC bien implementado asegura que los servicios ofrecidos cumplan con las expectativas y necesidades de la población.",
+      "video": null,
+      "fileLink": null,
+      "externalLink": null,
+      "externalLink2": null
     },
     {
-        "id": 3,
-        "title": "Alineación del SGC con los principios de No mentir, No robar, y No traicionar al pueblo:",
-        "category": "Módulo 1",
-        "image": "/images/ISO.jpg",
-        "content": "No mentir: El SGC fomenta la transparencia y la comunicación clara en todos los procesos.\n\nNo robar: La eficiencia y el control promovidos por el SGC ayudan a prevenir el mal uso de recursos públicos.\n\nNo traicionar al pueblo: Al garantizar la calidad y la mejora continua, el SGC asegura que los servicios públicos respondan adecuadamente a las necesidades ciudadanas.",
-        "video": null,
-        "fileLink": "/docs/organigrama.pdf",
-        "externalLink": null
+      "id": 3,
+      "title": "Alineación del SGC con los principios de No mentir, No robar, y No traicionar al pueblo:",
+      "category": "Módulo 1",
+      "image": null,
+      "content": "No mentir: El SGC fomenta la transparencia y la comunicación clara en todos los procesos.\n\nNo robar: La eficiencia y el control promovidos por el SGC ayudan a prevenir el mal uso de recursos públicos.\n\nNo traicionar al pueblo: Al garantizar la calidad y la mejora continua, el SGC asegura que los servicios públicos respondan adecuadamente a las necesidades ciudadanas.",
+      "video": null,
+      "fileLink": null,
+      "externalLink": null,
+      "externalLink2": null
     },
     {
-        "id": 4,
-        "title": "Ejemplos de cómo el SGC mejora la atención ciudadana",
-        "category": "Módulo 1",
-        "image": null,
-        "content": "Implementación de un sistema de quejas y sugerencias para capturar la retroalimentación de los ciudadanos y mejorar continuamente los servicios.\n\nEstablecimiento de indicadores de calidad que permitan medir el desempeño de las áreas de atención ciudadana.",
-        "video": null,
-        "fileLink": null,
-        "externalLink": null
+      "id": 4,
+      "title": "Contexto de la Organización",
+      "category": "Módulo 1",
+      "image": null,
+      "content": "El capítulo 4 se divide en cuatro subapartados clave:\n\n1.Comprensión de la organización y de su contexto\n\n2.Comprensión de las necesidades y expectativas de las partes interesadas\n\n3.Determinación del alcance del sistema de gestión de la calidad\n\n4.Sistema de gestión de la calidad\n\n\n\nA continuación le presentamos una lectura, un Quizz y una breve evaluación diagnóstica",
+      "video": null,
+      "fileLink": "/docs/contextodelaorganizacion.pdf",
+      "externalLink": "https://quizizz.com/join/quiz/66c615ee09d7582b61815889/start?studentShare=true",
+      "externalLink2": "https://docs.google.com/forms/d/e/1FAIpQLSfzlrBBtudXLKc00kSajbqXyB39xPuqEEXgdPrkU0lbpcQLIQ/viewform"
     },
     {
-        "id": 5,
-        "title": "Fases de Implementación del SGC en la SEGOB",
-        "category": "Módulo 2",
-        "image": null,
-        "content": "Fase 1: Auditoría de diagnóstico\n\nPropósito: Evaluar el estado actual de los procesos y sistemas existentes en las dependencias, identificando áreas de mejora y alineación con los requisitos de la norma ISO 9001:2015.\n\n\n\nActividades:\n\nRevisión de documentación existente.\n\nEntrevistas con el personal clave.\n\nIdentificación de brechas en comparación con los requisitos de la norma.",
-        "video": null,
-        "fileLink": null,
-        "externalLink": null
-    },
-    {
-        "id": 6,
-        "title": "Fases de Implementación del SGC en la SEGOB",
-        "category": "Módulo 2",
-        "image": null,
-        "content": "Fase 1: Auditoría de diagnóstico\n\nPropósito: Evaluar el estado actual de los procesos y sistemas existentes en las dependencias, identificando áreas de mejora y alineación con los requisitos de la norma ISO 9001:2015.\n\n\n\nActividades:\n\nRevisión de documentación existente.\n\nEntrevistas con el personal clave.\n\nIdentificación de brechas en comparación con los requisitos de la norma.",
-        "video": null,
-        "fileLink": null,
-        "externalLink": null
-    },
-    {
-        "id": 7,
-        "title": "Fases de Implementación del SGC en la SEGOB",
-        "category": "Módulo 2",
-        "image": null,
-        "content": "Fase 1: Auditoría de diagnóstico\n\nPropósito: Evaluar el estado actual de los procesos y sistemas existentes en las dependencias, identificando áreas de mejora y alineación con los requisitos de la norma ISO 9001:2015.\n\n\n\nActividades:\n\nRevisión de documentación existente.\n\nEntrevistas con el personal clave.\n\nIdentificación de brechas en comparación con los requisitos de la norma.",
-        "video": null,
-        "fileLink": null,
-        "externalLink": null
-    },
-    {
-        "id": 8,
-        "title": "Fases de Implementación del SGC en la SEGOB",
-        "category": "Módulo 2",
-        "image": null,
-        "content": "Fase 1: Auditoría de diagnóstico\n\nPropósito: Evaluar el estado actual de los procesos y sistemas existentes en las dependencias, identificando áreas de mejora y alineación con los requisitos de la norma ISO 9001:2015.\n\n\n\nActividades:\n\nRevisión de documentación existente.\n\nEntrevistas con el personal clave.\n\nIdentificación de brechas en comparación con los requisitos de la norma.",
-        "video": null,
-        "fileLink": null,
-        "externalLink": null
+      "id": 5,
+      "title": "Liderazgo en ISO 9001:2015",
+      "category": "Módulo 1",
+      "image": null,
+      "content": "¡Y ahora que vamos a aprender!\n\n1.Comprensión de la organización y de su contexto\n\n2.Comprensión de las necesidades y expectativas de las partes interesadas\n\n3.Determinación del alcance del sistema de gestión de la calidad\n\n4.Sistema de gestión de la calidad\n\n\n\nA continuación le presentamos una lectura, un Quizz y una breve evaluación diagnóstica",
+      "video": null,
+      "fileLink": "/docs/contextodelaorganizacion.pdf",
+      "externalLink": "https://quizizz.com/join/quiz/66c615ee09d7582b61815889/start?studentShare=true",
+      "externalLink2": "https://docs.google.com/forms/d/e/1FAIpQLSfzlrBBtudXLKc00kSajbqXyB39xPuqEEXgdPrkU0lbpcQLIQ/viewform"
     }
-]
+
+
+
+  ]
+  
