@@ -148,7 +148,7 @@ function App() {
               )}
               {activeAccordion === 3 && (
                 <div className="accordion-item">
-                  <h2 className="accordion-header">Valores</h2>
+                  <h2 className="accordion-header">Objetivo General</h2>
                   <div className="accordion-body">
                     Aquí va el Objetivo General.
                   </div>
