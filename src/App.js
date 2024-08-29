@@ -5,6 +5,7 @@ import Navigation from './components/Navigation';
 import Sidebar from './components/Sidebar';
 import Home from './components/Home'; // Importar el componente Home
 import Normatividad from './components/Normatividad';
+import Materiales from './components/Materiales';
 
 function App() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -44,6 +45,7 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/articulos" element={<Articulos />} />
                 <Route path="/normatividad" element={<Normatividad />} />
+                <Route path="/materiales" element={<Materiales />} />
                 
               </Routes>
             </div>

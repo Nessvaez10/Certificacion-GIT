@@ -17,7 +17,7 @@ function Sidebar() {
             rel="noopener noreferrer"
             className="list-group-item"
           >
-            Material{" "}
+            Cláusulas <br></br> (Lecciones sobre Calidad){" "}
           </a>
         </button>
         <button className="btn">
@@ -27,6 +27,15 @@ function Sidebar() {
             className="list-group-item"
           >
             Formatos{" "}
+          </a>
+        </button>
+        <button className="btn">
+          <a
+            href="/materiales"
+            rel="noopener noreferrer"
+            className="list-group-item"
+          >
+            Material Didáctico{" "}
           </a>
         </button>
         <button className="btn">
