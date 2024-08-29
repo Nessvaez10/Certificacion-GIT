@@ -198,12 +198,17 @@ function App() {
       )}
       {article.externalLink && (
         <a href={article.externalLink} target="_blank" rel="noopener noreferrer" className="btn mt-2" style={{ backgroundColor: '#bb955b', borderColor: '#bb955b', color: '#fff' }}>
-        Actividad
+        Actividad Quizz
         </a>
       )}
       {article.externalLink2 && (
         <a href={article.externalLink2} target="_blank" rel="noopener noreferrer" className="btn mt-2" style={{ backgroundColor: '#9d2550', borderColor: '#9d2550', color: '#fff' }}>
-         Actividad 
+         Evaluación 
+        </a>
+      )}
+      {article.youtubeLink && (
+        <a href={article.youtubeLink} target="_blank" rel="noopener noreferrer" className="btn mt-2" style={{ backgroundColor: '#737574', borderColor: '#737574', color: '#fff' }}>
+         Link del Video
         </a>
       )}
     </details>

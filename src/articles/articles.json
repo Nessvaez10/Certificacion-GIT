@@ -8,7 +8,8 @@
       "video": "/videos/Lec1.mp4",
       "fileLink": "/docs/documento01.pdf",
       "externalLink": null,
-      "externalLink2": null
+      "externalLink2": null,
+      "youtubeLink": null
     },
     {
       "id": 2,
@@ -19,7 +20,8 @@
       "video": null,
       "fileLink": null,
       "externalLink": null,
-      "externalLink2": null
+      "externalLink2": null,
+      "youtubeLink": null
     },
     {
       "id": 3,
@@ -30,29 +32,32 @@
       "video": null,
       "fileLink": null,
       "externalLink": null,
-      "externalLink2": null
+      "externalLink2": null,
+      "youtubeLink": null
     },
     {
       "id": 4,
       "title": "Contexto de la Organización",
       "category": "Módulo 1",
-      "image": null,
-      "content": "El capítulo 4 se divide en cuatro subapartados clave:\n\n1.Comprensión de la organización y de su contexto\n\n2.Comprensión de las necesidades y expectativas de las partes interesadas\n\n3.Determinación del alcance del sistema de gestión de la calidad\n\n4.Sistema de gestión de la calidad\n\n\n\nA continuación le presentamos una lectura, un Quizz y una breve evaluación diagnóstica",
+      "image": "/images/contexto.png",
+      "content": "",
       "video": null,
       "fileLink": "/docs/contextodelaorganizacion.pdf",
       "externalLink": "https://quizizz.com/join/quiz/66c615ee09d7582b61815889/start?studentShare=true",
-      "externalLink2": "https://docs.google.com/forms/d/e/1FAIpQLSfzlrBBtudXLKc00kSajbqXyB39xPuqEEXgdPrkU0lbpcQLIQ/viewform"
+      "externalLink2": "https://docs.google.com/forms/d/e/1FAIpQLSfzlrBBtudXLKc00kSajbqXyB39xPuqEEXgdPrkU0lbpcQLIQ/viewform",
+      "youtubeLink": null
     },
     {
       "id": 5,
       "title": "Liderazgo en ISO 9001:2015",
       "category": "Módulo 1",
-      "image": null,
-      "content": "¡Y ahora que vamos a aprender!\n\n1.Comprensión de la organización y de su contexto\n\n2.Comprensión de las necesidades y expectativas de las partes interesadas\n\n3.Determinación del alcance del sistema de gestión de la calidad\n\n4.Sistema de gestión de la calidad\n\n\n\nA continuación le presentamos una lectura, un Quizz y una breve evaluación diagnóstica",
+      "image": "/images/ahora.png",
+      "content": "¡Y ahora que vamos a aprender!",
       "video": null,
-      "fileLink": "/docs/contextodelaorganizacion.pdf",
-      "externalLink": "https://quizizz.com/join/quiz/66c615ee09d7582b61815889/start?studentShare=true",
-      "externalLink2": "https://docs.google.com/forms/d/e/1FAIpQLSfzlrBBtudXLKc00kSajbqXyB39xPuqEEXgdPrkU0lbpcQLIQ/viewform"
+      "fileLink": "/docs/LiderazgoenISO.pdf",
+      "externalLink": "https://es.educaplay.com/recursos-educativos/20020027-compromiso_del_liderazgo_en_la_iso_9001_2015.html",
+      "externalLink2": "https://forms.gle/MhHSJR14MX5aNhpo7",
+      "youtubeLink": "https://www.youtube.com/watch?v=b7RgUAUJXk4"
     }
 
 
