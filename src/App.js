@@ -4,6 +4,7 @@ import Articulos from './Articulos';
 import Navigation from './components/Navigation';
 import Sidebar from './components/Sidebar';
 import Home from './components/Home'; // Importar el componente Home
+import Normatividad from './components/Normatividad';
 
 function App() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -29,18 +30,21 @@ function App() {
           <img src="/images/logo2.png" alt="Logo" className="logo img-fluid" style={{ maxHeight: '100px' }} />
           <h1>SG-Calidad</h1>
         </header>
+        
 
         <Navigation />
 
         <div className="container-fluid mt-4">
           <div className="row">
-            <div className="col-md-2">
+            <div className="col-xl-3 col-md-12">
               <Sidebar />
             </div>
-            <div className="col-md-10">
+            <div className="col-xl-9 col-md-12">
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/articulos" element={<Articulos />} />
+                <Route path="/normatividad" element={<Normatividad />} />
+                
               </Routes>
             </div>
           </div>

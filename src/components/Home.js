@@ -6,7 +6,7 @@ function Home() {
       <img 
         src="/images/Misionyvision.png" 
         alt="Logo" 
-        style={{ width: '1400px', height: 'auto' }} 
+        style={{ width: '100%', height: 'auto' }} 
       />
     </div>
   );

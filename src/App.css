@@ -58,7 +58,7 @@
 
 
 .sidebar {
-  width: 200px;
+  width: 100%;
   background-color: #f7fafc;
   padding: 20px;
   border-right: 1px solid #ccc;
