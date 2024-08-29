@@ -52,19 +52,16 @@ function App() {
         </li>
 
         <li className="nav-item">
-          <a className="nav-link" href="#">Sitio Insitucional</a>
+          <a className="nav-link" href="https://s-gobierno.hidalgo.gob.mx/">Sitio Insitucional</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Facebook</a>
+          <a className="nav-link" href="https://www.facebook.com/SegobHidalgoOficial">Facebook</a>
         </li>
        
         <li className="nav-item">
-          <a className="nav-link" href="#">X</a>
+          <a className="nav-link" href="https://x.com/i/flow/login?redirect_after_login=%2FSEGOBHidalgo">X</a>
         </li>
 
-        <li className="nav-item">
-          <a className="nav-link" href="#">Acerca de</a>
-        </li>
       </ul>
     </div>
   </div>
@@ -99,13 +96,13 @@ function App() {
                   Formato de Pestañas para folders
                 </a>
               </div>
-              <h3 className="mt-4">Enlaces Útiles</h3>
+              <h3 className="mt-4">Normatividad</h3>
               <div className="list-group">
                 <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" className="list-group-item">
-                  Video de YouTube 1
+                Ley ****
                 </a>
                 <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" className="list-group-item">
-                  Video de YouTube 2
+                Ley ****
                 </a>
               </div>
             </div>
@@ -129,7 +126,7 @@ function App() {
                 className="btn mb-2 mx-2"
                 style={{ backgroundColor: '#611131', borderColor: '#611131', color: '#fff' }} 
                 onClick={() => toggleAccordion(3)}>
-                Valores
+                Objetivo General
               </button>
             </div>
             <div className="accordion mt-4">
@@ -153,7 +150,7 @@ function App() {
                 <div className="accordion-item">
                   <h2 className="accordion-header">Valores</h2>
                   <div className="accordion-body">
-                    Aquí van los valores.
+                    Aquí va el Objetivo General.
                   </div>
                 </div>
               )}
