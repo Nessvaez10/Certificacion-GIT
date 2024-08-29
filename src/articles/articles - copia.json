@@ -1,47 +1,66 @@
 [
     {
-        "id": 1,
-        "title": "Lección 1: Introducción al Sistema de Gestión de Calidad (SGC)",
-        "category": "Módulo 1",
-        "image": "/images/ISO.jpg",
-        "content": "Objetivo:\n\nBrindar a los servidores públicos una visión general del Sistema de Gestión de Calidad (SGC), sus beneficios y cómo se alinea con los principios de transparencia, legalidad, y objetividad.\n\n\n¿Qué es un Sistema de Gestión de Calidad?\n\nUn SGC es un conjunto de políticas, procesos y procedimientos necesarios para planificar y ejecutar las actividades de una organización con el fin de mejorar continuamente la eficacia y eficiencia en el desempeño de la misma.\n\nLa norma ISO 9001:2015 define los requisitos para establecer, implementar, mantener y mejorar un SGC, garantizando que las organizaciones puedan satisfacer consistentemente las necesidades y expectativas de los ciudadanos. ",
-        "video": "/videos/Lec1.mp4",
-        "fileLink": "/docs/documento1.pdf"
+      "id": 1,
+      "title": "Introducción al Sistema de Gestión de Calidad (SGC)",
+      "category": "Módulo 1",
+      "image": "/images/ISO.png",
+      "content": "Objetivo: Brindar a los servidores públicos una visión general del Sistema de Gestión de Calidad (SGC), sus beneficios y cómo se alinea con los principios de transparencia, legalidad, y objetividad.\n\n\n¿Qué es un Sistema de Gestión de Calidad? Un SGC es un conjunto de políticas, procesos y procedimientos necesarios para planificar y ejecutar las actividades de una organización con el fin de mejorar continuamente la eficacia y eficiencia en el desempeño de la misma.\n\nLa norma ISO 9001:2015 define los requisitos para establecer, implementar, mantener y mejorar un SGC, garantizando que las organizaciones puedan satisfacer consistentemente las necesidades y expectativas de los ciudadanos.",
+      "video": "/videos/Lec1.mp4",
+      "fileLink": "/docs/documento01.pdf",
+      "externalLink": null,
+      "externalLink2": null,
+      "youtubeLink": null
     },
     {
-        "id": 2,
-        "title": "Lección 2: Beneficios del SGC para las dependencias de la SEGOB",
-        "category": "Módulo 1",
-        "image": null,
-        "content": "Mejora de la eficiencia:\n\nAl definir procesos claros y repetibles, se reduce el desperdicio de recursos y se optimiza el uso del tiempo.\n\n\nAumento de la transparencia:\n\nDocumentar los procedimientos permite un mayor control y seguimiento de las actividades, promoviendo la rendición de cuentas.\n\n\nMayor satisfacción ciudadana:\n\nUn SGC bien implementado asegura que los servicios ofrecidos cumplan con las expectativas y necesidades de la población.",
-        "video": null,
-        "fileLink": null
+      "id": 2,
+      "title": "Beneficios del SGC para las dependencias de la SEGOB",
+      "category": "Módulo 1",
+      "image": null,
+      "content": "Mejora de la eficiencia: Al definir procesos claros y repetibles, se reduce el desperdicio de recursos y se optimiza el uso del tiempo.\n\n\nAumento de la transparencia: Documentar los procedimientos permite un mayor control y seguimiento de las actividades, promoviendo la rendición de cuentas.\n\n\nMayor satisfacción ciudadana: Un SGC bien implementado asegura que los servicios ofrecidos cumplan con las expectativas y necesidades de la población.",
+      "video": null,
+      "fileLink": null,
+      "externalLink": null,
+      "externalLink2": null,
+      "youtubeLink": null
     },
     {
-        "id": 3,
-        "title": "Organigrama",
-        "category": "Módulo 4",
-        "image": "/images/taco.jpg",
-        "content": "*****\n\n*****\n\npelusin\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n",
-        "video": "/videos/test.mp4",
-        "fileLink": "/docs/organigrama.pdf"
+      "id": 3,
+      "title": "Alineación del SGC con los principios de No mentir, No robar, y No traicionar al pueblo:",
+      "category": "Módulo 1",
+      "image": null,
+      "content": "No mentir: El SGC fomenta la transparencia y la comunicación clara en todos los procesos.\n\nNo robar: La eficiencia y el control promovidos por el SGC ayudan a prevenir el mal uso de recursos públicos.\n\nNo traicionar al pueblo: Al garantizar la calidad y la mejora continua, el SGC asegura que los servicios públicos respondan adecuadamente a las necesidades ciudadanas.",
+      "video": null,
+      "fileLink": null,
+      "externalLink": null,
+      "externalLink2": null,
+      "youtubeLink": null
     },
     {
-        "id": 4,
-        "title": "Misión y Visión",
-        "category": "Módulo 2",
-        "image": null,
-        "content": "*****\n\n*****\n\ntaco\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n",
-        "video": null,
-        "fileLink": null
+      "id": 4,
+      "title": "Contexto de la Organización",
+      "category": "Módulo 1",
+      "image": "/images/contexto.png",
+      "content": "",
+      "video": null,
+      "fileLink": "/docs/contextodelaorganizacion.pdf",
+      "externalLink": "https://quizizz.com/join/quiz/66c615ee09d7582b61815889/start?studentShare=true",
+      "externalLink2": "https://docs.google.com/forms/d/e/1FAIpQLSfzlrBBtudXLKc00kSajbqXyB39xPuqEEXgdPrkU0lbpcQLIQ/viewform",
+      "youtubeLink": null
     },
     {
-        "id": 5,
-        "title": "Artículo 5",
-        "category": "Módulo 2",
-        "image": null,
-        "content": "*****\n\n*****\n\ntaco\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n*****\n\n",
-        "video": null,
-        "fileLink": null
+      "id": 5,
+      "title": "Liderazgo en ISO 9001:2015",
+      "category": "Módulo 1",
+      "image": "/images/ahora.png",
+      "content": "¡Y ahora que vamos a aprender!",
+      "video": null,
+      "fileLink": "/docs/LiderazgoenISO.pdf",
+      "externalLink": "https://es.educaplay.com/recursos-educativos/20020027-compromiso_del_liderazgo_en_la_iso_9001_2015.html",
+      "externalLink2": "https://forms.gle/MhHSJR14MX5aNhpo7",
+      "youtubeLink": "https://www.youtube.com/watch?v=b7RgUAUJXk4"
     }
-]
+
+
+
+  ]
+  
