@@ -42,15 +42,15 @@ function App() {
     <a className="navbar-brand" href="#">Inicio</a>
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
-    </button>
+    </button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav ml-auto">
         <li classNamje="nav-item">
-          <a className="nav-link" href="#">Transparencia</a>
+          <a className="nav-link" href="https://s-gobierno.hidalgo.gob.mx/Transparencia">Transparencia</a>
         </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Mejora Regulatoria</a>
-        </li>
+
         <li className="nav-item">
           <a className="nav-link" href="#">Sitio Insitucional</a>
         </li>
@@ -191,21 +191,25 @@ function App() {
           </video>
         </div>
       )}
+
       {article.fileLink && (
         <a href={article.fileLink} target="_blank" rel="noopener noreferrer" className="btn mt-2" style={{ backgroundColor: '#611131', borderColor: '#611131', color: '#fff' }}>
           Documento de apoyo
         </a>
       )}
+      &nbsp;&nbsp;&nbsp;&nbsp;
       {article.externalLink && (
         <a href={article.externalLink} target="_blank" rel="noopener noreferrer" className="btn mt-2" style={{ backgroundColor: '#bb955b', borderColor: '#bb955b', color: '#fff' }}>
         Actividad Quizz
         </a>
       )}
+      &nbsp;&nbsp;&nbsp;&nbsp;
       {article.externalLink2 && (
         <a href={article.externalLink2} target="_blank" rel="noopener noreferrer" className="btn mt-2" style={{ backgroundColor: '#9d2550', borderColor: '#9d2550', color: '#fff' }}>
          Evaluación 
         </a>
       )}
+      &nbsp;&nbsp;&nbsp;&nbsp;
       {article.youtubeLink && (
         <a href={article.youtubeLink} target="_blank" rel="noopener noreferrer" className="btn mt-2" style={{ backgroundColor: '#737574', borderColor: '#737574', color: '#fff' }}>
          Link del Video
