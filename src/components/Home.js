@@ -3,8 +3,11 @@ import React from 'react';
 function Home() {
   return (
     <div>
-      <h2>Misión y Visión</h2>
-      <p>Este es el contenido de la página de inicio pastel.</p>
+      <img 
+        src="/images/Misionyvision.png" 
+        alt="Logo" 
+        style={{ width: '1400px', height: 'auto' }} 
+      />
     </div>
   );
 }

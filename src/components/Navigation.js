@@ -13,15 +13,7 @@ function Navigation() {
             <li className="nav-item">
               <a className="nav-link" href="https://s-gobierno.hidalgo.gob.mx/Transparencia">Transparencia</a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="https://s-gobierno.hidalgo.gob.mx/">Sitio Institucional</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="https://www.facebook.com/SegobHidalgoOficial">Facebook</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="https://x.com/i/flow/login?redirect_after_login=%2FSEGOBHidalgo">X</a>
-            </li>
+          
           </ul>
         </div>
       </div>
