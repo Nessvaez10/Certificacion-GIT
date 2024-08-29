@@ -4,8 +4,8 @@ import React from "react";
 function Sidebar() {
   return (
     <div className="sidebar sticky-top">
-      <h3>Formatos Institucionales</h3>
-      <div className="list-group">
+      <h2 className="text-center">Formatos Institucionales</h2>
+      <div className="list-group" style={{padding: 20}}>
         <button className="btn">
           <a href="/" rel="noopener noreferrer" className="list-group-item">
             Home{" "}
@@ -38,8 +38,11 @@ function Sidebar() {
             Normatividad{" "}
           </a>
         </button>
+        <div className="text-center mt-3">
+
         <p>
-            Comentarios y sugerencias al <a href="mailto:certificacion_segob@hidalgo.gob.mx">informatica_dga@hidalgo.gob.mx</a></p>
+            Comentarios y sugerencias al <a href="mailto:certificacion_segob@hidalgo.gob.mx">certificacion_segob@hidalgo.gob.mx</a></p>
+        </div>
       </div>
     </div>
   );

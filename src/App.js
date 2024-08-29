@@ -32,14 +32,14 @@ function App() {
         </header>
         
 
-        <Navigation />
-
-        <div className="container-fluid mt-4">
+{/*         <Navigation />
+ */}
+        <div className="container-fluid m-5">
           <div className="row">
             <div className="col-xl-3 col-md-12">
               <Sidebar />
             </div>
-            <div className="col-xl-9 col-md-12">
+            <div className="col-xl-9 col-md-12" style={{padding: 25}}>
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/articulos" element={<Articulos />} />
