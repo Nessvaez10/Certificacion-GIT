@@ -9,7 +9,7 @@ function Sidebar() {
         <button
           type="button"
           className="btn btn-primary mb-3"
-          style={{ backgroundColor: "#70727280", border: 0 }}
+          style={{ backgroundColor: "#70727230", border: 0 }}
         >
           <a
             href="/"
@@ -21,7 +21,7 @@ function Sidebar() {
         <button
           type="button"
           className="btn btn-primary mb-3"
-          style={{ backgroundColor:  "#70727280", border: 0 }}
+          style={{ backgroundColor:  "#70727230", border: 0 }}
         >
           <a
             href="/articulos"
@@ -33,7 +33,7 @@ function Sidebar() {
         <button
           type="button"
           className="btn btn-primary mb-3"
-          style={{ backgroundColor:  "#70727280", border: 0 }}
+          style={{ backgroundColor:  "#70727230", border: 0 }}
         >
           {" "}
           <a
@@ -46,7 +46,7 @@ function Sidebar() {
         <button
           type="button"
           className="btn btn-primary mb-3"
-          style={{ backgroundColor:  "#70727280", border: 0 }}
+          style={{ backgroundColor:  "#70727230", border: 0 }}
         >
           {" "}
           <a
@@ -58,7 +58,7 @@ function Sidebar() {
         </button>
         <button type="button"
           className="btn btn-primary mb-3"
-          style={{ backgroundColor:  "#70727280", border: 0 }}>
+          style={{ backgroundColor:  "#70727230", border: 0 }}>
           <a
             href="/normatividad"
             style={{ textDecoration: 0, color: "black", fontSize: 18 }}
