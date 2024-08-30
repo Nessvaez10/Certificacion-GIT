@@ -27,7 +27,7 @@ function Sidebar() {
             href="/articulos"
             style={{ textDecoration: 0, color: "black", fontSize: 18 }}
           >
-            Material{" "}
+            Cláusulas <br></br> (Lecciones sobre Calidad){" "}
           </a>
         </button>
         <button
@@ -49,6 +49,15 @@ function Sidebar() {
           style={{ backgroundColor:  "#70727280", border: 0 }}
         >
           {" "}
+          <a
+            href="/materiales"
+            rel="noopener noreferrer"
+            className="list-group-item"
+          >
+            Material Didáctico{" "}
+          </a>
+        </button>
+        <button className="btn">
           <a
             href="/normatividad"
             style={{ textDecoration: 0, color: "black", fontSize: 18 }}
