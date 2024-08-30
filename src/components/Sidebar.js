@@ -4,44 +4,66 @@ import React from "react";
 function Sidebar() {
   return (
     <div className="sidebar sticky-top">
-      <h2 className="text-center">Formatos Institucionales</h2>
-      <div className="list-group" style={{padding: 20}}>
-        <button className="btn">
-          <a href="/" rel="noopener noreferrer" className="list-group-item">
+      <h2 className="text-center">Certificacion de Calidad</h2>
+      <div className="list-group" style={{ padding: 30 }}>
+        <button
+          type="button"
+          className="btn btn-primary mb-3"
+          style={{ backgroundColor: "#70727280", border: 0 }}
+        >
+          <a
+            href="/"
+            style={{ textDecoration: 0, color: "black", fontSize: 18 }}
+          >
             Home{" "}
           </a>
         </button>
-        <button className="btn">
+        <button
+          type="button"
+          className="btn btn-primary mb-3"
+          style={{ backgroundColor:  "#70727280", border: 0 }}
+        >
           <a
             href="/articulos"
-            rel="noopener noreferrer"
-            className="list-group-item"
+            style={{ textDecoration: 0, color: "black", fontSize: 18 }}
           >
             Material{" "}
           </a>
         </button>
-        <button className="btn">
+        <button
+          type="button"
+          className="btn btn-primary mb-3"
+          style={{ backgroundColor:  "#70727280", border: 0 }}
+        >
+          {" "}
           <a
-            href="https://docs.google.com/presentation/d/1-6QUyAD_0ZHqo-lcSrE4cge_XVsU-LPA/edit?usp=drive_link&ouid=101015930341910713283&rtpof=true&sd=true"
-            rel="noopener noreferrer"
-            className="list-group-item"
+            href="/formatos"
+            style={{ textDecoration: 0, color: "black", fontSize: 18 }}
           >
             Formatos{" "}
           </a>
         </button>
-        <button className="btn">
+        <button
+          type="button"
+          className="btn btn-primary mb-3"
+          style={{ backgroundColor:  "#70727280", border: 0 }}
+        >
+          {" "}
           <a
             href="/normatividad"
-            rel="noopener noreferrer"
-            className="list-group-item"
+            style={{ textDecoration: 0, color: "black", fontSize: 18 }}
           >
             Normatividad{" "}
           </a>
         </button>
-        <div className="text-center mt-3">
 
-        <p>
-            Comentarios y sugerencias al <a href="mailto:certificacion_segob@hidalgo.gob.mx">certificacion_segob@hidalgo.gob.mx</a></p>
+        <div className="text-center mt-3">
+          <p>
+            Comentarios y sugerencias al{" "}
+            <a href="mailto:certificacion_segob@hidalgo.gob.mx">
+              certificacion_segob@hidalgo.gob.mx
+            </a>
+          </p>
         </div>
       </div>
     </div>
