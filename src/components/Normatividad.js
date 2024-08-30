@@ -3,9 +3,7 @@ import React from 'react';
 function Normatividad() {
   return (
     <div>
-      <h2>Normatividad</h2>
-      <p>Este es el contenido relacionado con la normatividad.</p>
-      <h3 className="mt-4">Normatividad</h3>
+      <h2 className='text-center mb-5'>Normatividad</h2>
       <div className="list-group">
         <a href="https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf" target="_blank" rel="noopener noreferrer" className="list-group-item">
         Constitución Política de los Estados Unidos Mexicanos

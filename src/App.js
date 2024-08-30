@@ -42,10 +42,10 @@ function App() {
          */}
         <div className="container-fluid m-5">
           <div className="row">
-            <div className="col-xxl-3 col-sm-12">
+            <div className="col-xxl-3 col-md-6 col-sm-12">
               <Sidebar />
             </div>
-            <div className="col-xxl-9 col-md-12" style={{ padding: 25 }}>
+            <div className="col-xxl-9 col-md-6 col-sm-12" style={{ padding: 25 }}>
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/articulos" element={<Articulos />} />
