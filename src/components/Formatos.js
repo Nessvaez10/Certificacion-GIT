@@ -25,7 +25,7 @@ function Formatos() {
                   window.open(`${formato.link}`, "_blank");
                 }}
               >
-                <FontAwesomeIcon icon={faFileAlt} size="2x" className="mb-2" /> {/* Icono encima del texto */}
+                <FontAwesomeIcon icon={faFileAlt} size="2x" className="mb-2" /> {/* Icono */}
                 {formato.nombre}
               </button>
             </div>

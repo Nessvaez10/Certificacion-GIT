@@ -18,6 +18,19 @@ function Sidebar() {
             Home{" "}
           </a>
         </button>
+
+        <button
+          type="button"
+          className="btn btn-primary mb-3"
+          style={{ backgroundColor:  "#70727230", border: 0 }}
+        >
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdPRgDNYPbpv7wBRWc2gcQ-pl-O2iMs0JQStIvbXuTYiAqLTA/viewform"
+            style={{ textDecoration: 0, color: "black", fontSize: 18 }}
+          >
+            Identificación de necesidades en cuestión de Calidad SEGOB
+          </a>
+        </button>
         <button
           type="button"
           className="btn btn-primary mb-3"
@@ -30,6 +43,11 @@ function Sidebar() {
             Cláusulas
           </a>
         </button>
+
+
+
+
+
         <button
           type="button"
           className="btn btn-primary mb-3"
