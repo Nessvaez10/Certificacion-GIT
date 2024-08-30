@@ -5,9 +5,10 @@ import './Materiales.css';
 function Materiales() {
   const videos = [
     { src: '/videos/Lec1.mp4', title: '¿Qué es un sistema de Gestión de la Calidad?' },
-    { src: '/videos/***.mp4', title: 'Video 2' },
-    { src: '/videos/***.mp4', title: 'Video 3' },
-    { src: '/videos/***.mp4', title: 'Video 4' },
+    { src: '/videos/10tiposdelider.mp4', title: 'Los 10 tipos de líderes y sus rasgos (estilos de liderazgo)' },
+    { src: '/videos/***.mp4', title: 'próximamente' },
+    { src: '/videos/***.mp4', title: 'próximamente' },
+    { src: '/videos/***.mp4', title: 'próximamente' },
 
 
 ];

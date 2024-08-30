@@ -1,6 +1,5 @@
 [
 
-
     {
       "id": 4,
       "title": "Cláusula 4 Contexto de la Organización",
@@ -17,13 +16,13 @@
       "id": 5,
       "title": "Cláusula 5 Liderazgo en ISO 9001:2015",
       "category": "Módulo 1",
-      "image": "/images/ahora.png",
-      "content": "¡Y ahora que vamos a aprender!",
-      "video": null,
+      "image": "/images/ahora2.png",
+      "content": null,
+      "video": "/videos/10tiposdelider.mp4",
       "fileLink": "/docs/LiderazgoenISO.pdf",
       "externalLink": "https://es.educaplay.com/recursos-educativos/20020027-compromiso_del_liderazgo_en_la_iso_9001_2015.html",
       "externalLink2": "https://forms.gle/MhHSJR14MX5aNhpo7",
-      "youtubeLink": "https://www.youtube.com/watch?v=b7RgUAUJXk4"
+      "youtubeLink": null
     }
 
 
