@@ -1,88 +1,84 @@
-import { Button } from "bootstrap";
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHome, faClipboard, faGraduationCap, faFileAlt, faBook, faGavel, faCalendar } from "@fortawesome/free-solid-svg-icons";
 
 function Sidebar() {
   return (
     <div className="sidebar sticky-top">
-      <h2 className="text-center">Certificacion de Calidad</h2>
+      <h2 className="text-center">Certificación de Calidad</h2>
       <div className="list-group" style={{ padding: 30 }}>
         <button
           type="button"
-          className="btn btn-primary mb-3"
-          style={{ backgroundColor: "#70727230", border: 0 }}
+          className="btn btn-primary d-flex align-items-center mb-3"
+          style={{ backgroundColor: "#70727230", border: 0, width: '100%' }}
+          onClick={() => window.location.href = "/"}
         >
-          <a
-            href="/"
-            style={{ textDecoration: 0, color: "black", fontSize: 18 }}
-          >
-            Home{" "}
-          </a>
+          <FontAwesomeIcon icon={faHome} size="2x" style={{ color: "#611131", minWidth: '40px' }} />
+          <span style={{ color: "black", fontSize: 20, textAlign: 'left', flex: 1 }}>Home</span>
         </button>
-
-        <button
-          type="button"
-          className="btn btn-primary mb-3"
-          style={{ backgroundColor:  "#70727230", border: 0 }}
-        >
-          <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSdPRgDNYPbpv7wBRWc2gcQ-pl-O2iMs0JQStIvbXuTYiAqLTA/viewform"
-            style={{ textDecoration: 0, color: "black", fontSize: 18 }}
-          >
-            Identificación de necesidades en cuestión de Calidad SEGOB
-          </a>
-        </button>
-        <button
-          type="button"
-          className="btn btn-primary mb-3"
-          style={{ backgroundColor:  "#70727230", border: 0 }}
-        >
-          <a
-            href="/articulos"
-            style={{ textDecoration: 0, color: "black", fontSize: 18 }}
-          >
-            Cláusulas
-          </a>
-        </button>
-
-
-
 
 
         <button
           type="button"
-          className="btn btn-primary mb-3"
-          style={{ backgroundColor:  "#70727230", border: 0 }}
+          className="btn btn-primary d-flex align-items-center mb-3"
+          style={{ backgroundColor: "#70727230", border: 0, width: '100%' }}
+          onClick={() => window.location.href = "/articulos"}
         >
-          {" "}
-          <a
-            href="/formatos"
-            style={{ textDecoration: 0, color: "black", fontSize: 18 }}
-          >
-            Formatos{" "}
-          </a>
+          <FontAwesomeIcon icon={faGraduationCap} size="2x" style={{ color: "#611131", minWidth: '40px' }} />
+          <span style={{ color: "black", fontSize: 20, textAlign: 'left', flex: 1 }}>Cláusulas</span>
         </button>
+
         <button
           type="button"
-          className="btn btn-primary mb-3"
-          style={{ backgroundColor:  "#70727230", border: 0 }}
+          className="btn btn-primary d-flex align-items-center mb-3"
+          style={{ backgroundColor: "#70727230", border: 0, width: '100%' }}
+          onClick={() => window.location.href = "/calendario"}
         >
-          {" "}
-          <a
-            href="/materiales"
-            style={{ textDecoration: 0, color: "black", fontSize: 18 }}
-          >
-            Material Didáctico{" "}
-          </a>
+          <FontAwesomeIcon icon={faCalendar} size="2x" style={{ color: "#611131", minWidth: '40px' }} />
+          <span style={{ color: "black", fontSize: 20, textAlign: 'left', flex: 1 }}>Calendario</span>
         </button>
-        <button type="button"
-          className="btn btn-primary mb-3"
-          style={{ backgroundColor:  "#70727230", border: 0 }}>
-          <a
-            href="/normatividad"
-            style={{ textDecoration: 0, color: "black", fontSize: 18 }}
-          >
-            Normatividad{" "}
-          </a>
+
+
+        <button
+          type="button"
+          className="btn btn-primary d-flex align-items-center mb-3"
+          style={{ backgroundColor: "#70727230", border: 0, width: '100%' }}
+          onClick={() => window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSdPRgDNYPbpv7wBRWc2gcQ-pl-O2iMs0JQStIvbXuTYiAqLTA/viewform"}
+        >
+          <FontAwesomeIcon icon={faClipboard} size="2x" style={{ color: "#611131", minWidth: '40px' }} />
+          <span style={{ color: "black", fontSize: 20, textAlign: 'left', flex: 1 }}>Formulario de Necesidades de Calidad</span>
+        </button>
+
+
+
+        <button
+          type="button"
+          className="btn btn-primary d-flex align-items-center mb-3"
+          style={{ backgroundColor: "#70727230", border: 0, width: '100%' }}
+          onClick={() => window.location.href = "/formatos"}
+        >
+          <FontAwesomeIcon icon={faFileAlt} size="2x" style={{ color: "#611131", minWidth: '40px' }} />
+          <span style={{ color: "black", fontSize: 20, textAlign: 'left', flex: 1 }}>Formatos</span>
+        </button>
+
+        <button
+          type="button"
+          className="btn btn-primary d-flex align-items-center mb-3"
+          style={{ backgroundColor: "#70727230", border: 0, width: '100%' }}
+          onClick={() => window.location.href = "/materiales"}
+        >
+          <FontAwesomeIcon icon={faBook} size="2x" style={{ color: "#611131", minWidth: '40px' }} />
+          <span style={{ color: "black", fontSize: 20, textAlign: 'left', flex: 1 }}>Material Didáctico</span>
+        </button>
+
+        <button
+          type="button"
+          className="btn btn-primary d-flex align-items-center mb-3"
+          style={{ backgroundColor: "#70727230", border: 0, width: '100%' }}
+          onClick={() => window.location.href = "/normatividad"}
+        >
+          <FontAwesomeIcon icon={faGavel} size="2x" style={{ color: "#611131", minWidth: '40px' }} />
+          <span style={{ color: "black", fontSize: 20, textAlign: 'left', flex: 1 }}>Normatividad</span>
         </button>
 
         <div className="text-center mt-3">
