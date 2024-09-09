@@ -85,12 +85,6 @@ function Sidebar() {
           <span style={{ color: "black", fontSize: 20, textAlign: 'left', flex: 1 }}>Formulario de Necesidades de Calidad</span>
         </button>
 
-
-
-
-
-
-
         <div className="text-center mt-3">
           <p>
             Comentarios y sugerencias al{" "}
