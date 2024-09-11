@@ -36,6 +36,30 @@
       "externalLink": null,
       "externalLink2": "https://docs.google.com/forms/d/e/1FAIpQLSfP3jyJrmiSGtV_u0ImNo-_04mC-FuD0M1jl-7-VvqWPpg6gQ/viewform",
       "youtubeLink": null
+    },
+    {
+      "id": 7,
+      "title": "Cláusula 7 Organización en ISO 9001:2015",
+      "category": "Módulo 1",
+      "image": "/images/clausula7.png",
+      "content": null,
+      "video": null,
+      "fileLink": "/docs/clausula7.pdf",
+      "externalLink": null,
+      "externalLink2": null,
+      "youtubeLink": null
+    },
+    {
+      "id": 7,
+      "title": "Cláusula 8 de la ISO 9001:2015 Operación",
+      "category": "Módulo 1",
+      "image": "/images/clausula8.png",
+      "content": null,
+      "video": null,
+      "fileLink": "/docs/clausula8.pdf",
+      "externalLink": "https://es.educaplay.com/recursos-educativos/20275871-desafio_iso_9001_2015_clausula_8_operacion.html",
+      "externalLink2": null,
+      "youtubeLink": null
     }
 
 
