@@ -60,6 +60,30 @@
       "externalLink": "https://es.educaplay.com/recursos-educativos/20275871-desafio_iso_9001_2015_clausula_8_operacion.html",
       "externalLink2": null,
       "youtubeLink": null
+    },
+    {
+      "id": 8,
+      "title": "Cláusula 9 de la ISO 9001:2015 Evaluación del Desempeño",
+      "category": "Módulo 1",
+      "image": "/images/clausula9.png",
+      "content": null,
+      "video": null,
+      "fileLink": "/docs/clausula9.pdf",
+      "externalLink": "https://quizizz.com/join/quiz/66e1e713ec3248ac056c9750/start?studentShare=true",
+      "externalLink2": null,
+      "youtubeLink": null
+    },
+    {
+      "id": 9,
+      "title": "Cláusula 10 de la ISO 9001:2015 Mejora",
+      "category": "Módulo 1",
+      "image": "/images/clausula10.png",
+      "content": null,
+      "video": null,
+      "fileLink": "/docs/clausula10.pdf",
+      "externalLink": null,
+      "externalLink2": "https://forms.gle/vSLHCWiFyJvgYmNG6",
+      "youtubeLink": null
     }
 
 
