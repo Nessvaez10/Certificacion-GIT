@@ -1,13 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { CSVLink } from 'react-csv';
+import { collection, addDoc, onSnapshot, doc, updateDoc, deleteDoc } from "firebase/firestore";
+import { db } from './firebaseConfig';
+import { exportToExcel } from './excelExport.js';
 
 const TurnosForm = () => {
-  const [turnos, setTurnos] = useState(() => {
-    // Carga los datos desde localStorage solo una vez al inicializar el estado
-    const savedTurnos = localStorage.getItem('turnos');
-    return savedTurnos ? JSON.parse(savedTurnos) : [];
-  });
-  
+  const [turnos, setTurnos] = useState([]);
   const [nuevoTurno, setNuevoTurno] = useState({
     consecutivo: '',
     turno: '',
@@ -21,10 +18,15 @@ const TurnosForm = () => {
     prioridad: '',
     capturo: ''
   });
+
   useEffect(() => {
-    // Guarda en localStorage cada vez que 'turnos' cambia
-    localStorage.setItem('turnos', JSON.stringify(turnos));
-  }, [turnos]);
+    const unsub = onSnapshot(collection(db, "turnos"), (snapshot) => {
+      const turnosData = snapshot.docs.map((doc) => ({ ...doc.data(), id: doc.id }));
+      setTurnos(turnosData);
+    });
+
+    return () => unsub();
+  }, []);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -34,8 +36,8 @@ const TurnosForm = () => {
     }));
   };
 
-  const handleAddTurno = () => {
-    setTurnos([...turnos, nuevoTurno]);
+  const handleAddTurno = async () => {
+    await addDoc(collection(db, "turnos"), nuevoTurno);
     setNuevoTurno({
       consecutivo: '',
       turno: '',
@@ -51,13 +53,14 @@ const TurnosForm = () => {
     });
   };
 
-  const handleDelete = (index) => {
-    setTurnos(turnos.filter((_, i) => i !== index));
+  const handleDelete = async (id) => {
+    await deleteDoc(doc(db, "turnos", id));
   };
 
-  const handleEdit = (index) => {
-    setNuevoTurno(turnos[index]);
-    setTurnos(turnos.filter((_, i) => i !== index));
+  const handleEdit = async (id) => {
+    const turnoToEdit = turnos.find(turno => turno.id === id);
+    setNuevoTurno(turnoToEdit);
+    await deleteDoc(doc(db, "turnos", id)); // Eliminar temporalmente para reingresarlo editado
   };
 
   const handleSetPriority = (priority) => {
@@ -78,6 +81,10 @@ const TurnosForm = () => {
       default:
         return 'transparent';
     }
+  };
+
+  const handleExportExcel = () => {
+    exportToExcel(turnos);
   };
 
   return (
@@ -108,37 +115,37 @@ const TurnosForm = () => {
         <table style={styles.table}>
           <thead>
             <tr>
-              <th style={styles.th}>Consecutivo</th>
-              <th style={styles.th}>Turno</th>
-              <th style={styles.th}>Oficio</th>
-              <th style={styles.th}>Término</th>
-              <th style={styles.th}>Remitente</th>
-              <th style={styles.th}>Área</th>
-              <th style={styles.th}>Asunto</th>
-              <th style={styles.th}>Instrucción</th>
-              <th style={styles.th}>Área Canalización</th>
-              <th style={styles.th}>Prioridad</th>
-              <th style={styles.th}>Capturó</th>
-              <th style={styles.th}>Acciones</th>
+              <th>Consecutivo</th>
+              <th>Turno</th>
+              <th>Oficio</th>
+              <th>Término</th>
+              <th>Remitente</th>
+              <th>Área</th>
+              <th>Asunto</th>
+              <th>Instrucción</th>
+              <th>Área Canalización</th>
+              <th>Prioridad</th>
+              <th>Capturó</th>
+              <th>Acciones</th>
             </tr>
           </thead>
           <tbody>
             {turnos.map((item, index) => (
               <tr key={index} style={{ backgroundColor: index % 2 === 0 ? '#f5f5f5' : '#ffffff' }}>
-                <td style={styles.td}>{item.consecutivo}</td>
-                <td style={styles.td}>{item.turno}</td>
-                <td style={styles.td}>{item.oficio}</td>
-                <td style={styles.td}>{item.termino}</td>
-                <td style={styles.td}>{item.remitente}</td>
-                <td style={styles.td}>{item.area}</td>
-                <td style={styles.td}>{item.asunto}</td>
-                <td style={styles.td}>{item.instruccion}</td>
-                <td style={styles.td}>{item.areaCanalizacion}</td>
-                <td style={{ ...styles.td, color: getPriorityColor(item.prioridad) }}>{item.prioridad}</td>
-                <td style={styles.td}>{item.capturo}</td>
-                <td style={styles.td}>
-                  <button onClick={() => handleEdit(index)} style={styles.editButton}>Editar</button>
-                  <button onClick={() => handleDelete(index)} style={styles.deleteButton}>Borrar</button>
+                <td>{item.consecutivo}</td>
+                <td>{item.turno}</td>
+                <td>{item.oficio}</td>
+                <td>{item.termino}</td>
+                <td>{item.remitente}</td>
+                <td>{item.area}</td>
+                <td>{item.asunto}</td>
+                <td style={styles.instructionCell}>{item.instruccion}</td>
+                <td>{item.areaCanalizacion}</td>
+                <td style={{ color: getPriorityColor(item.prioridad) }}>{item.prioridad}</td>
+                <td>{item.capturo}</td>
+                <td>
+                  <button onClick={() => handleEdit(item.id)} style={styles.editButton}>Editar</button>
+                  <button onClick={() => handleDelete(item.id)} style={styles.deleteButton}>Borrar</button>
                 </td>
               </tr>
             ))}
@@ -146,11 +153,14 @@ const TurnosForm = () => {
         </table>
       </div>
 
-      <CSVLink data={turnos} filename="turnos.csv" style={styles.exportButton}>        Exportar a Excel
-      </CSVLink>
+      <button onClick={handleExportExcel} style={styles.exportButton}>
+        Exportar a Excel
+      </button>
     </div>
   );
 };
+
+
 
 const styles = {
   container: {
@@ -180,15 +190,19 @@ const styles = {
     border: 'none',
     borderRadius: '4px',
     cursor: 'pointer',
+    
   },
-  tableSection: {
+ // Ajustes para la sección de la tabla
+ tableSection: {
     overflowX: 'auto',
     marginTop: '20px',
   },
+  // Ajustes para la tabla y ancho fijo de columnas
   table: {
     width: '100%',
     borderCollapse: 'collapse',
     minWidth: '1000px',
+    tableLayout: 'fixed', // Establece un ancho fijo para las columnas
   },
   th: {
     padding: '10px',
@@ -201,6 +215,10 @@ const styles = {
     textAlign: 'left',
     whiteSpace: 'nowrap',
     borderBottom: '1px solid #ddd',
+  },
+  instructionCell: {
+    wordWrap: 'break-word', // Permite que el texto se ajuste
+    whiteSpace: 'normal',
   },
   editButton: {
     padding: '5px',
