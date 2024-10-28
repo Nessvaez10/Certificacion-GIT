@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHome, faClipboard, faGraduationCap, faFileAlt, faBook, faGavel, faCalendar } from "@fortawesome/free-solid-svg-icons";
+import { faHome, faClipboard, faGraduationCap, faFileAlt, faBook, faGavel, faCalendar, faCheckDouble } from "@fortawesome/free-solid-svg-icons";
 
 function Sidebar() {
   return (
@@ -21,10 +21,30 @@ function Sidebar() {
           type="button"
           className="btn btn-primary d-flex align-items-center mb-3"
           style={{ backgroundColor: "#70727230", border: 0, width: '100%' }}
+          onClick={() => window.location.href = "/indicadores"}
+        >
+          <FontAwesomeIcon icon={faCheckDouble} size="2x" style={{ color: "#611131", minWidth: '40px' }} />
+          <span style={{ color: "black", fontSize: 20, textAlign: 'left', flex: 1 }}>Indicadores de Unidades</span>
+        </button>
+
+        <button
+          type="button"
+          className="btn btn-primary d-flex align-items-center mb-3"
+          style={{ backgroundColor: "#70727230", border: 0, width: '100%' }}
           onClick={() => window.location.href = "/normatividad"}
         >
           <FontAwesomeIcon icon={faGavel} size="2x" style={{ color: "#611131", minWidth: '40px' }} />
           <span style={{ color: "black", fontSize: 20, textAlign: 'left', flex: 1 }}>Normatividad</span>
+        </button>
+
+        <button
+          type="button"
+          className="btn btn-primary d-flex align-items-center mb-3"
+          style={{ backgroundColor: "#70727230", border: 0, width: '100%' }}
+          onClick={() => window.location.href = "/marcolegal"}
+        >
+          <FontAwesomeIcon icon={faGavel} size="2x" style={{ color: "#611131", minWidth: '40px' }} />
+          <span style={{ color: "black", fontSize: 20, textAlign: 'left', flex: 1 }}>Marco Legal</span>
         </button>
 
         <button
@@ -87,7 +107,7 @@ function Sidebar() {
 
         <div className="text-center mt-3">
           <p>
-            Comentarios y sugerencias al{" "}
+            Comentarios y sugerencias al correo{" "}
             <a href="mailto:certificacion_segob@hidalgo.gob.mx">
               certificacion_segob@hidalgo.gob.mx
             </a>
