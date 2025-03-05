@@ -11,6 +11,7 @@ import Calendario from "./components/Calendario.js"
 import IndicadoresTacticos from './components/IndicadoresTacticos.js';
 import MarcoLegal from './components/Marcolegal.js';
 import TurnosForm from './components/TurnosForm.js';
+import Capacitaciones from './components/Capacitaciones.jsx'
 
 
 function App() {
@@ -60,6 +61,7 @@ function App() {
                 <Route path="/indicadores" element={<IndicadoresTacticos />} />
                 <Route path="/marcolegal" element={<MarcoLegal />} />
                 <Route path="/turnos" element={<TurnosForm />} />
+                <Route path="/capacitaciones" element={<Capacitaciones />} />
                 
               </Routes>
             </div>
