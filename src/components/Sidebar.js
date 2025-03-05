@@ -1,6 +1,16 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHome, faClipboard, faGraduationCap, faFileAlt, faBook, faGavel, faCalendar, faCheckDouble } from "@fortawesome/free-solid-svg-icons";
+import {
+  faHome,
+  faClipboard,
+  faGraduationCap,
+  faFileAlt,
+  faBook,
+  faGavel,
+  faCalendar,
+  faCheckDouble,
+  faAward,
+} from "@fortawesome/free-solid-svg-icons";
 
 function Sidebar() {
   return (
@@ -10,99 +20,184 @@ function Sidebar() {
         <button
           type="button"
           className="btn btn-primary d-flex align-items-center mb-3"
-          style={{ backgroundColor: "#70727230", border: 0, width: '100%' }}
-          onClick={() => window.location.href = "/"}
+          style={{ backgroundColor: "#70727230", border: 0, width: "100%" }}
+          onClick={() => (window.location.href = "/")}
         >
-          <FontAwesomeIcon icon={faHome} size="2x" style={{ color: "#611131", minWidth: '40px' }} />
-          <span style={{ color: "black", fontSize: 20, textAlign: 'left', flex: 1 }}>Home</span>
+          <FontAwesomeIcon
+            icon={faHome}
+            size="2x"
+            style={{ color: "#611131", minWidth: "40px" }}
+          />
+          <span
+            style={{ color: "black", fontSize: 20, textAlign: "left", flex: 1 }}
+          >
+            Home
+          </span>
         </button>
 
         <button
           type="button"
           className="btn btn-primary d-flex align-items-center mb-3"
-          style={{ backgroundColor: "#70727230", border: 0, width: '100%' }}
-          onClick={() => window.location.href = "/indicadores"}
+          style={{ backgroundColor: "#70727230", border: 0, width: "100%" }}
+          onClick={() => (window.location.href = "/indicadores")}
         >
-          <FontAwesomeIcon icon={faCheckDouble} size="2x" style={{ color: "#611131", minWidth: '40px' }} />
-          <span style={{ color: "black", fontSize: 20, textAlign: 'left', flex: 1 }}>Indicadores de Unidades</span>
+          <FontAwesomeIcon
+            icon={faCheckDouble}
+            size="2x"
+            style={{ color: "#611131", minWidth: "40px" }}
+          />
+          <span
+            style={{ color: "black", fontSize: 20, textAlign: "left", flex: 1 }}
+          >
+            Indicadores de Unidades
+          </span>
         </button>
 
         <button
           type="button"
           className="btn btn-primary d-flex align-items-center mb-3"
-          style={{ backgroundColor: "#70727230", border: 0, width: '100%' }}
-          onClick={() => window.location.href = "/normatividad"}
+          style={{ backgroundColor: "#70727230", border: 0, width: "100%" }}
+          onClick={() => (window.location.href = "/normatividad")}
         >
-          <FontAwesomeIcon icon={faGavel} size="2x" style={{ color: "#611131", minWidth: '40px' }} />
-          <span style={{ color: "black", fontSize: 20, textAlign: 'left', flex: 1 }}>Normatividad</span>
+          <FontAwesomeIcon
+            icon={faGavel}
+            size="2x"
+            style={{ color: "#611131", minWidth: "40px" }}
+          />
+          <span
+            style={{ color: "black", fontSize: 20, textAlign: "left", flex: 1 }}
+          >
+            Normatividad
+          </span>
         </button>
 
         <button
           type="button"
           className="btn btn-primary d-flex align-items-center mb-3"
-          style={{ backgroundColor: "#70727230", border: 0, width: '100%' }}
-          onClick={() => window.location.href = "/marcolegal"}
+          style={{ backgroundColor: "#70727230", border: 0, width: "100%" }}
+          onClick={() => (window.location.href = "/marcolegal")}
         >
-          <FontAwesomeIcon icon={faGavel} size="2x" style={{ color: "#611131", minWidth: '40px' }} />
-          <span style={{ color: "black", fontSize: 20, textAlign: 'left', flex: 1 }}>Marco Legal</span>
+          <FontAwesomeIcon
+            icon={faGavel}
+            size="2x"
+            style={{ color: "#611131", minWidth: "40px" }}
+          />
+          <span
+            style={{ color: "black", fontSize: 20, textAlign: "left", flex: 1 }}
+          >
+            Marco Legal
+          </span>
         </button>
 
         <button
           type="button"
           className="btn btn-primary d-flex align-items-center mb-3"
-          style={{ backgroundColor: "#70727230", border: 0, width: '100%' }}
-          onClick={() => window.location.href = "/articulos"}
+          style={{ backgroundColor: "#70727230", border: 0, width: "100%" }}
+          onClick={() => (window.location.href = "/articulos")}
         >
-          <FontAwesomeIcon icon={faGraduationCap} size="2x" style={{ color: "#611131", minWidth: '40px' }} />
-          <span style={{ color: "black", fontSize: 20, textAlign: 'left', flex: 1 }}>Cláusulas</span>
+          <FontAwesomeIcon
+            icon={faGraduationCap}
+            size="2x"
+            style={{ color: "#611131", minWidth: "40px" }}
+          />
+          <span
+            style={{ color: "black", fontSize: 20, textAlign: "left", flex: 1 }}
+          >
+            Cláusulas
+          </span>
         </button>
-
 
         <button
           type="button"
           className="btn btn-primary d-flex align-items-center mb-3"
-          style={{ backgroundColor: "#70727230", border: 0, width: '100%' }}
-          onClick={() => window.location.href = "/materiales"}
+          style={{ backgroundColor: "#70727230", border: 0, width: "100%" }}
+          onClick={() => (window.location.href = "/materiales")}
         >
-          <FontAwesomeIcon icon={faBook} size="2x" style={{ color: "#611131", minWidth: '40px' }} />
-          <span style={{ color: "black", fontSize: 20, textAlign: 'left', flex: 1 }}>Material Didáctico</span>
+          <FontAwesomeIcon
+            icon={faBook}
+            size="2x"
+            style={{ color: "#611131", minWidth: "40px" }}
+          />
+          <span
+            style={{ color: "black", fontSize: 20, textAlign: "left", flex: 1 }}
+          >
+            Material Didáctico
+          </span>
         </button>
-
-
 
         <button
           type="button"
           className="btn btn-primary d-flex align-items-center mb-3"
-          style={{ backgroundColor: "#70727230", border: 0, width: '100%' }}
-          onClick={() => window.location.href = "/formatos"}
+          style={{ backgroundColor: "#70727230", border: 0, width: "100%" }}
+          onClick={() => (window.location.href = "/formatos")}
         >
-          <FontAwesomeIcon icon={faFileAlt} size="2x" style={{ color: "#611131", minWidth: '40px' }} />
-          <span style={{ color: "black", fontSize: 20, textAlign: 'left', flex: 1 }}>Formatos</span>
+          <FontAwesomeIcon
+            icon={faFileAlt}
+            size="2x"
+            style={{ color: "#611131", minWidth: "40px" }}
+          />
+          <span
+            style={{ color: "black", fontSize: 20, textAlign: "left", flex: 1 }}
+          >
+            Formatos
+          </span>
         </button>
-
-
-
-
 
         <button
           type="button"
           className="btn btn-primary d-flex align-items-center mb-3"
-          style={{ backgroundColor: "#70727230", border: 0, width: '100%' }}
-          onClick={() => window.location.href = "/calendario"}
+          style={{ backgroundColor: "#70727230", border: 0, width: "100%" }}
+          onClick={() => (window.location.href = "/calendario")}
         >
-          <FontAwesomeIcon icon={faCalendar} size="2x" style={{ color: "#611131", minWidth: '40px' }} />
-          <span style={{ color: "black", fontSize: 20, textAlign: 'left', flex: 1 }}>Calendario</span>
+          <FontAwesomeIcon
+            icon={faCalendar}
+            size="2x"
+            style={{ color: "#611131", minWidth: "40px" }}
+          />
+          <span
+            style={{ color: "black", fontSize: 20, textAlign: "left", flex: 1 }}
+          >
+            Calendario
+          </span>
         </button>
-
 
         <button
           type="button"
           className="btn btn-primary d-flex align-items-center mb-3"
-          style={{ backgroundColor: "#70727230", border: 0, width: '100%' }}
-          onClick={() => window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSdPRgDNYPbpv7wBRWc2gcQ-pl-O2iMs0JQStIvbXuTYiAqLTA/viewform"}
+          style={{ backgroundColor: "#70727230", border: 0, width: "100%" }}
+          onClick={() =>
+            (window.location.href =
+              "https://docs.google.com/forms/d/e/1FAIpQLSdPRgDNYPbpv7wBRWc2gcQ-pl-O2iMs0JQStIvbXuTYiAqLTA/viewform")
+          }
         >
-          <FontAwesomeIcon icon={faClipboard} size="2x" style={{ color: "#611131", minWidth: '40px' }} />
-          <span style={{ color: "black", fontSize: 20, textAlign: 'left', flex: 1 }}>Formulario de Necesidades de Calidad</span>
+          <FontAwesomeIcon
+            icon={faClipboard}
+            size="2x"
+            style={{ color: "#611131", minWidth: "40px" }}
+          />
+          <span
+            style={{ color: "black", fontSize: 20, textAlign: "left", flex: 1 }}
+          >
+            Formulario de Necesidades de Calidad
+          </span>
+        </button>
+        <button
+          type="button"
+          className="btn btn-primary d-flex align-items-center mb-3"
+          style={{ backgroundColor: "#70727230", border: 0, width: "100%" }}
+          onClick={() => (window.location.href = "/capacitaciones")}
+
+        >
+          <FontAwesomeIcon
+            icon={faAward}
+            size="2x"
+            style={{ color: "#611131", minWidth: "40px" }}
+          />
+          <span
+            style={{ color: "black", fontSize: 20, textAlign: "left", flex: 1 }}
+          >
+            Capacitaciones
+          </span>
         </button>
 
         <div className="text-center mt-3">
