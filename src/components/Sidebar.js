@@ -51,7 +51,7 @@ function Sidebar() {
           <span
             style={{ color: "black", fontSize: 20, textAlign: "left", flex: 1 }}
           >
-            Normas
+            Normas de Calidad
           </span>
         </button>
 
