@@ -35,23 +35,30 @@ function Sidebar() {
           </span>
         </button>
 
+
+
         <button
           type="button"
           className="btn btn-primary d-flex align-items-center mb-3"
           style={{ backgroundColor: "#70727230", border: 0, width: "100%" }}
-          onClick={() => (window.location.href = "/indicadores")}
+          onClick={() => (window.location.href = "/normas")}
         >
           <FontAwesomeIcon
-            icon={faCheckDouble}
+            icon={faGavel}
             size="2x"
             style={{ color: "#611131", minWidth: "40px" }}
           />
           <span
             style={{ color: "black", fontSize: 20, textAlign: "left", flex: 1 }}
           >
-            Indicadores de Unidades
+            Normas
           </span>
         </button>
+
+
+
+
+
 
         <button
           type="button"
