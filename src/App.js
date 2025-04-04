@@ -6,12 +6,12 @@ import Sidebar from './components/Sidebar';
 import Home from './components/Home'; // Importar el componente Home
 import Normatividad from './components/Normatividad';
 import Materiales from './components/Materiales';
+import Normas from './components/Normas.js';
 import Formatos from "./components/Formatos";
 import Calendario from "./components/Calendario.js"
 import IndicadoresTacticos from './components/IndicadoresTacticos.js';
 import MarcoLegal from './components/Marcolegal.js';
 import TurnosForm from './components/TurnosForm.js';
-import Capacitaciones from './components/Capacitaciones.jsx'
 
 
 function App() {
@@ -55,13 +55,13 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/articulos" element={<Articulos />} />
                 <Route path="/normatividad" element={<Normatividad />} />
+                <Route path="/normas" element={<Normas />} />
                 <Route path="/materiales" element={<Materiales />} />
                 <Route path="/formatos" element={<Formatos />} />
                 <Route path="/calendario" element={<Calendario />} />
                 <Route path="/indicadores" element={<IndicadoresTacticos />} />
                 <Route path="/marcolegal" element={<MarcoLegal />} />
                 <Route path="/turnos" element={<TurnosForm />} />
-                <Route path="/capacitaciones" element={<Capacitaciones />} />
                 
               </Routes>
             </div>
