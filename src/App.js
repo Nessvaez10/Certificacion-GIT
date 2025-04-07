@@ -7,6 +7,7 @@ import Home from './components/Home'; // Importar el componente Home
 import Normatividad from './components/Normatividad';
 import Materiales from './components/Materiales';
 import Normas from './components/Normas.js';
+import Evidencia from './components/Evidencia.js';
 import Formatos from "./components/Formatos";
 import Calendario from "./components/Calendario.js"
 import IndicadoresTacticos from './components/IndicadoresTacticos.js';
@@ -56,6 +57,7 @@ function App() {
                 <Route path="/articulos" element={<Articulos />} />
                 <Route path="/normatividad" element={<Normatividad />} />
                 <Route path="/normas" element={<Normas />} />
+                <Route path="/evidencia" element={<Evidencia />} />
                 <Route path="/materiales" element={<Materiales />} />
                 <Route path="/formatos" element={<Formatos />} />
                 <Route path="/calendario" element={<Calendario />} />

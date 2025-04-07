@@ -57,6 +57,26 @@ function Sidebar() {
 
 
 
+        <button
+          type="button"
+          className="btn btn-primary d-flex align-items-center mb-3"
+          style={{ backgroundColor: "#70727230", border: 0, width: "100%" }}
+          onClick={() => (window.location.href = "/evidencia")}
+        >
+          <FontAwesomeIcon
+            icon={faGavel}
+            size="2x"
+            style={{ color: "#611131", minWidth: "40px" }}
+          />
+          <span
+            style={{ color: "black", fontSize: 20, textAlign: "left", flex: 1 }}
+          >
+            Evidencias de Implementación
+          </span>
+        </button>
+
+
+
 
 
 
@@ -96,24 +116,17 @@ function Sidebar() {
           </span>
         </button>
 
-        <button
-          type="button"
-          className="btn btn-primary d-flex align-items-center mb-3"
-          style={{ backgroundColor: "#70727230", border: 0, width: "100%" }}
-          onClick={() => (window.location.href = "/articulos")}
-        >
-          <FontAwesomeIcon
-            icon={faGraduationCap}
-            size="2x"
-            style={{ color: "#611131", minWidth: "40px" }}
-          />
-          <span
-            style={{ color: "black", fontSize: 20, textAlign: "left", flex: 1 }}
-          >
-            Cláusulas
-          </span>
-        </button>
 
+
+
+
+
+
+
+
+
+
+      
         <button
           type="button"
           className="btn btn-primary d-flex align-items-center mb-3"
