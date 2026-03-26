@@ -35,7 +35,7 @@ function App() {
   return ( 
     <Router>
       <div className="App">
-        <header className="App-header bg-wine text-white text-center py-3">
+        <header className="App-header bg-wine text-white text-center py-2">
           <img
             src="/images/logo2.png"
             alt="Logo"
@@ -46,7 +46,7 @@ function App() {
 
         {/*         <Navigation />
          */}
-        <div className="container-fluid m-5">
+        <div className="container-fluid mt-4">
           <div className="row">
             <div className="col-xxl-3 col-md-6 col-sm-12">
               <Sidebar />

@@ -16,7 +16,7 @@ function Sidebar() {
   return (
     <div className="sidebar sticky-top">
       <h2 className="text-center">Certificación de Calidad</h2>
-      <div className="list-group" style={{ padding: 30 }}>
+      <div className="list-group" style={{ padding: 25 }}>
         <button
           type="button"
           className="btn btn-primary d-flex align-items-center mb-3"

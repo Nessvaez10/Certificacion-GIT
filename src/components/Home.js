@@ -4,9 +4,9 @@ function Home() {
   return (
     <div>
       <img 
-        src="/images/Misionyvision.png" 
+        src="/images/Misionyvision2.png" 
         alt="Logo" 
-        style={{ width: '100%', height: '100%' }} 
+        style={{ width: '90%', height: '90%' }} 
       />
     </div>
   );
